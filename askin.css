@@ -1,0 +1,487 @@
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato-Light.eot');
+    src: local('Lato Light'), local('Lato-Light'),
+        url('font/Lato/Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato/Lato-Light.woff') format('woff'),
+        url('font/Lato/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('Lato-Black.eot');
+    src: local('Lato Black'), local('Lato-Black'),
+        url('font/Lato/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato/Lato-Black.woff') format('woff'),
+        url('font/Lato/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('Lato-Light.eot');
+    src: local('Lato Light'), local('Lato-Light'),
+        url('font/Lato/Lato-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato/Lato-Light.woff') format('woff'),
+        url('font/Lato/Lato-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('Lato-Regular.eot');
+    src: local('Lato Regular'), local('Lato-Regular'),
+        url('font/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato/Lato-Regular.woff') format('woff'),
+        url('font/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato-Medium';
+    src: url('Lato-Medium.eot');
+    src: local('Lato Medium'), local('Lato-Medium'),
+        url('font/Lato/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/Lato/Lato-Medium.woff') format('woff'),
+        url('font/Lato/Lato-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    font-family: "Lato";
+}
+/**Header**/
+/**nav Начало**/
+.header_color{
+    background-color: rgb(18, 17, 17);
+}
+a{
+    font-size: 20pt;
+     color: rgb(245, 245, 245);
+}
+a:hover{
+    text-decoration: none;
+    font-size: 23pt;
+    font-weight: bold;
+    color: rgb(245, 245, 245);
+}
+nav div:nth-child(3):hover,
+nav div:nth-child(4):hover,
+header div:nth-child(5):hover,
+nav div:nth-child(6):hover,
+nav div:nth-child(7):hover,
+nav div:nth-child(8):hover,
+nav div:nth-child(9):hover,
+nav div:nth-child(10):hover{
+    border-top: 2px solid rgb(255, 255, 255);
+    background-color:rgba(18, 17, 17, 0.8);
+}
+/**nav Конец**/
+/**Live interaction from audience**/
+.multi-filter{
+    background-image:
+    url("foto/audience.jpg"),
+    linear-gradient(rgba(15,36,190,0.8),rgba(15,36,190,0.8));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    height: 1500px;
+}
+.heading{
+    width: auto;
+}
+.multi-filter .line{
+    height: 6px;
+    background-color: rgb(255, 255, 255);
+}
+.multi-filter .line_radius{
+    border-radius: 3px; 
+}
+.multi-filter .line:last-child{
+    width: 220px;
+}
+.multi-filter .line:nth-child(2){
+    width: 15px;
+}
+.multi-filter .line:first-child{
+    width: 8px;
+}
+.red{
+    border: 1px solid red;
+}
+h1{
+    font-family: "Lato-Black";
+    font-size: 40pt;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 3px 0 black;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 25pt;
+}
+.btn{
+    background-color: rgba(23, 40, 81, 0);
+    color: rgb(245, 245, 245);
+}
+.multi-filter .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 118, 147);
+}
+.margin_top{
+    margin-top: 200px; 
+}
+.iPhone-6{
+    height: 918px;
+    width: 650px;
+    background-image: url("foto/iPhone-6.png");
+}
+/**Live interaction from audience конец**/
+/**Header конец**/
+
+.How{
+    height: 860px;
+}
+.works{
+    font-family: "Lato-Light";
+    font-size: 70pt;
+    color: rgb(3, 118, 147);
+    margin-top: 100px;
+}
+.block{
+    height: 310px;
+    width: 300px;
+}
+.icon{
+    width: 160px;
+    height: 160px;
+    border: 1px solid rgb(3, 118, 147);
+}
+.icon-1{
+    background-image: url("foto/icon-1.png");
+    background-repeat: no-repeat;
+    height: 86px;
+    width: 54px;
+}
+.icon-2{
+    background-image: url("foto/icon-2.png");
+    background-repeat: no-repeat;
+    height: 94px;
+    width: 102px;
+}
+.icon-3{
+    background-image: url("foto/icon-3.png");
+    background-repeat: no-repeat;
+    height: 92px;
+    width: 92px;
+}
+.icon-4{
+    background-image: url("foto/icon-4.png");
+    background-repeat: no-repeat;
+    height: 122px;
+    width: 122px;
+}
+.blue{
+    background-color: rgb(3, 118, 147);
+}
+.block .text p{
+    font-family: "Lato-Regular";
+    font-size: 18pt;
+    color: rgb(3, 118, 147);
+}
+.interact{
+    height: 1000px;
+    background-color: rgb(3, 118, 147);
+}
+.interact p{
+    font-weight: bold;
+    font-size: 30pt;
+    color: rgb(255, 255, 255);
+}
+span{
+    font-family: "Lato-Medium";
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+}
+.line{
+    height: 10px;
+    width: 120px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.interact span{
+    font-family: "Lato-Light";
+    font-size: 20pt;
+    color: rgb(255, 255, 255);
+}
+line{
+    margin-left: 50px;
+}
+.svg{
+    height: 50px;
+    width: 260px;
+    margin-top: 113px;
+    transform: rotate(-90deg);
+}
+.border_yellow{
+    border: 1px solid rgb(241, 180, 81);
+    height: 200px;
+    width: 200px;
+    transform: rotate(45deg);
+}
+.border_yellow .romb{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(241, 180, 81);
+    transform: rotate(-90deg);
+}
+.border_yellow .romb span{
+    font-family: "Lato-Regular";
+    font-size: 15pt;
+    color: rgb(1, 1, 1);
+    transform: rotate(45deg);
+    position: relative;
+    top: 15px;
+    left: -35px;
+}
+.border_yellow .romb img{
+    transform: rotate(45deg);
+    position: relative;
+    top: 25px;
+    left: -25px;
+}
+
+
+.Features_height{
+    height: 870px;
+}
+.Features_block p{
+    font-weight: bold;
+    font-size: 15pt;
+    color: rgb(3, 118, 147);
+}
+.Partners_block{
+    height: 450px;
+    background-image: url("foto/Partners.jpg");
+    filter: hue-rotate(90deg);
+}
+.Partners_block span{
+    font-family: "Lato-light";
+    font-size: 30pt;
+    color: rgb(255, 255, 255);
+}
+.Partners_top{
+    margin-top: 200px;
+}
+
+
+/**Блок Events**/
+.background_grey{
+    background-color: rgb(230, 230, 230);
+    height: 1020px;
+}
+.events_font{
+    font-family: "Lato-light";
+    font-size: 65pt;
+    color: rgb(255, 255, 255);
+}
+.block_internal{
+    height: 625px;
+    width: 576px;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid white;
+    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: -2px -2px 2px 2px black;
+}
+.block_interactive{
+    height: 720px;
+    width: 654px;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid white;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.strip_external{
+    height: 5px;
+    width: 576px;
+    background-color: rgb(76, 165, 154);
+}
+.strip_interactive{
+    height: 5px;
+    width: 654px;
+    background-color: rgb(242, 98, 80);
+}
+.block_red{
+    height: 718px;  
+}
+.external_event{
+    height: 286px;
+    width: 576px;
+    background-image: 
+    url("foto/Public-SPeaking.jpg"),
+    linear-gradient(rgba(76,165,154,0.8),rgba(76,165,154,0.8));
+    background-blend-mode: saturation;
+    background-repeat: no-repeat;
+}
+.external_event_2{
+    height: 326px;
+    width: 654px;
+    background-image: url("foto/ineractive-event.jpg"),
+    linear-gradient(rgba(242,98,80,0.8),rgba(242,98,80,0.8));
+    background-blend-mode: saturation;
+    background-repeat: no-repeat;
+}
+.external_event_3{
+    height: 286px;
+    width: 576px;
+    background-image: url("foto/internal-event.jpg"),
+    linear-gradient(rgba(240,167,101,0.8),rgba(240,167,101,0.8));
+    background-blend-mode: saturation;
+    background-repeat: no-repeat;
+}
+.info{
+    height: 280px;
+}
+.info p{
+    font-size: 17pt;
+    width: 400px;
+    color: rgb(1, 1, 1);
+}
+.info-1 button{
+    font-family: "Lato-Medium";
+    font-size: 20pt;
+    width: 200px;
+    height: 55px;
+    border-radius: 27.5px;
+    background-color: rgb(76, 165, 154);
+}
+.info-2 button{
+    font-family: "Lato-Medium";
+    font-size: 20pt;
+    width: 200px;
+    height: 55px;
+    border-radius: 27.5px;
+    background-color: rgb(242, 98, 80);
+}
+.info-3 button{
+    font-family: "Lato-Medium";
+    font-size: 20pt;
+    width: 200px;
+    height: 55px;
+    border-radius: 27.5px;
+    background-color: rgb(240, 167, 101);
+}
+
+/**Блок About us**/
+.About_us{
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+}
+.About_us span{
+    font-family: "Lato-light";
+    font-size: 15pt;
+    color: rgb(3, 118, 147);
+}
+.About_us .svg{
+    border: 1px solid rgb(3, 118, 147);
+}
+.About_us svg{
+    width: 150px;
+}
+.About_us h2{
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 40pt;
+    color: rgb(3, 118, 147);
+}
+.About_us span{
+    font-family: "Lato-Medium";
+    font-size: 18pt;
+    color: rgb(3, 118, 147);
+}
+.About_us .line{
+    border-bottom: 2px solid rgb(3, 118, 147);
+}
+ .who_we_are p{
+    font-family: "Lato-light";
+    font-size: 18pt;
+}
+.About_us .block{
+    height: 250px;
+    width: 210px;
+}
+.About_us .block:first-child{
+    border-bottom: 4px solid rgb(76, 165, 154);
+}
+.About_us .block:nth-child(2){
+    border-bottom: 4px solid rgb(242, 98, 80);
+}
+.About_us .block:nth-child(3){
+    border-bottom: 4px solid rgb(240, 167, 101);
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.circle_green{
+    background-color: rgb(76, 165, 154);
+    box-shadow:
+            0 0 0 2px white,
+            0 0 0 15px rgb(165, 210, 204); 
+}
+.circle_red{
+    background-color: rgb(242, 98, 80);
+    box-shadow:
+            0 0 0 2px white,
+            0 0 0 15px rgb(248, 176, 167); 
+}
+.circle_yellow{
+    background-color: rgb(240, 167, 101);
+    box-shadow:
+            0 0 0 2px white,
+            0 0 0 15px rgb(247, 211, 178); 
+}
+.block p{
+    font-family: "Lato-regular";
+    font-size: 40pt;
+}
+.block:first-child p{
+    color: rgb(76, 165, 154);
+}
+.block:nth-child(2) p{
+    color: rgb(242, 98, 80);
+}
+.block:nth-child(3) p{
+    color: rgb(240, 167, 101);
+}
+.block span{
+    font-family: "Lato-Light";
+    font-size: 21pt;
+}
+
+/**Footer**/
+footer{
+    height: 845px;
+    background-color: rgb(13, 13, 13);
+    color: rgb(255, 255, 255);
+    font-family: "Lato-Light";
+}
+footer h3{
+    font-size: 25pt;
+    font-family: "Lato-Regular";
+    margin-top: 200px;
+}
+footer p,
+footer li{
+    font-size: 22pt;
+}
+.logo_header p{
+    margin-top: 50px;
+    font-size: 24pt;
+}
+footer .logo{
+    margin-top: 100px;
+}
+form{
+    background-color: red;
+}
